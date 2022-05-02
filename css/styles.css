@@ -31,7 +31,7 @@ body{
     color:#212121;
     font-weight: 700;
     width: 270px;
-    height: 16px;
+    line-height: 16px
 }
 .paragraph{
     font-family: 'Roboto';
@@ -39,6 +39,7 @@ body{
     font-weight: 400v;
     width: 270px;
     height: 75px;
+    line-height: 24px;
 }
 .post-back1{
     background-color: 
@@ -50,13 +51,14 @@ body{
     font-weight: 500;
     width: 151px;
     height: 19px;
+    line-height: 19px;
 }
 .description{
     color:#757575;
     font-family: 'Roboto';
-    font-weight: 400v;
     width: 130px;
     height: 19px;
+    line-height: 19px;
 }
 .post-back2{
     background-color: #2F303A;
@@ -66,6 +68,7 @@ body{
     font-weight: 700;
     width: 376px;
     height: 42px;
+    line-height: 42px;
 }
 .post-back3{
     background-color: #F5F4FA;
