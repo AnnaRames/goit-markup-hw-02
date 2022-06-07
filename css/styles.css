@@ -1,0 +1,68 @@
+:root{
+    --main-font: 'Roboto',sans-serif;
+
+    --main-txt--cl: #757575;
+    --secondary-txt-cl:#212121;
+    --accent-color:#2196F3;
+
+    --main-bg-cl:#ffffff;
+    --secondary-bg-cl:#F5F4FA;
+    --dark-bg-cl:#2F303A;
+}
+
+body{
+    font-family: 'Roboto', sans-serif ;
+        font-size: 14px;
+        line-height: 1,71;
+        letter-spacing: 0.03em;
+        color: var(--main-txt--cl);
+}
+
+.link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color:var(--secondary-txt-cl);
+}
+.link-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color:#757575;
+}
+.link, .link-contact:hover{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.link, .link-contact:focus{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+.btn{
+    font-family: inherit;       
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1,88;
+        letter-spacing: 0.06em;
+        color: #212121;
+        background-color: #F5F4FA;
+        cursor: pointer;
+}
+.btn:hover,
+.btn:focus{
+    font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1, 88;
+        letter-spacing: 0.06em;
+        color:#ffffff;
+        background-color:var(--accent-color);
+}
