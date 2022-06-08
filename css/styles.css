@@ -30,21 +30,21 @@ body{
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    color:#757575;
+    color:var(--main-txt--cl);
 }
 .link, .link-contact:hover{
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color:var(--accent-color);
 }
 .link, .link-contact:focus{
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color:var(--accent-color);
 }
 .btn{
     font-family: inherit;       
@@ -52,7 +52,7 @@ body{
         font-size: 16px;
         line-height: 1,88;
         letter-spacing: 0.06em;
-        color: #212121;
+        color:var(--secondary-txt-cl);
         background-color: #F5F4FA;
         cursor: pointer;
 }
@@ -65,4 +65,59 @@ body{
         letter-spacing: 0.06em;
         color:#ffffff;
         background-color:var(--accent-color);
+}
+.header-bg{
+    background-color:var(--main-bg-cl);
+}
+.hero-bg{
+    background-color: var(--dark-bg-cl);
+}
+.hero-title{
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color:#ffffff;
+}
+.item{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--secondary-txt-cl);
+}
+.description{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--main-txt--cl);
+}
+.title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color:var(--secondary-txt-cl);
+}
+.list-item{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color:var(--secondary-txt-cl);
+}
+.list-description{
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--main-txt--cl);
+}
+.footer-bg{
+    background-color: var(--dark-bg-cl);
 }
