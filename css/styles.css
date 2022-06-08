@@ -66,6 +66,9 @@ body{
         color:#ffffff;
         background-color:var(--accent-color);
 }
+.studio{
+    color: var(--secondary-txt-cl);
+}
 .header-bg{
     background-color:var(--main-bg-cl);
 }
