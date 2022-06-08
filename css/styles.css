@@ -13,7 +13,7 @@
 body{
     font-family: 'Roboto', sans-serif ;
         font-size: 14px;
-        line-height: 1,71;
+        line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--main-txt--cl);
 }
@@ -21,28 +21,28 @@ body{
 .link{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--secondary-txt-cl);
 }
 .link-contact{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--main-txt--cl);
 }
 .link, .link-contact:hover{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--accent-color);
 }
 .link, .link-contact:focus{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--accent-color);
 }
@@ -50,7 +50,7 @@ body{
     font-family: inherit;       
         font-weight: 700;
         font-size: 16px;
-        line-height: 1,88;
+        line-height: 1.88;
         letter-spacing: 0.06em;
         color:var(--secondary-txt-cl);
         background-color: #F5F4FA;
@@ -61,7 +61,7 @@ body{
     font-family: inherit;
         font-weight: 700;
         font-size: 16px;
-        line-height: 1, 88;
+        line-height: 1.88;
         letter-spacing: 0.06em;
         color:#ffffff;
         background-color:var(--accent-color);
